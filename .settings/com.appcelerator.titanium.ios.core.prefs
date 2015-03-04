@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=CustomerModuleTest
+iosLaunchConfigurationAttributes/ATTR_UPLOAD_DEBUG_SYMBOLS=false
+iosLaunchConfigurationAttributes/appid=com.bd.gsltest
+iosLaunchConfigurationAttributes/certificate=Aziz Ahmad (63BQJ23J78)
+iosLaunchConfigurationAttributes/keychain=/Users/gsl001/Library/Keychains/gsl001.keychain
+iosLaunchConfigurationAttributes/sdk_version=8.1
+iosLaunchConfigurationAttributes/uuid=4d2420bc-345b-49be-bf7d-84d6c15c11dd

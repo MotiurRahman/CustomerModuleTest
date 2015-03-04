@@ -1,0 +1,23 @@
+<h1>iosDateModule Module</h1>
+<h2>Description</h2>
+<p>Get the dates according the region format of your iOS device.</p>
+<h2>Accessing the iosDateModule Module</h2>
+<p>To access this module from JavaScript, you would do the following:</p>
+<pre><code>var iosdatemodule = require("com.dateFormatter");
+</code></pre>
+<p>The iosdatemodule variable is a reference to the Module object.</p>
+<h2>Usage</h2>
+<p>var iosdatemodule = require('com.dateFormatter');</p>
+<p>//Pass fully qualified date string in the method//</p>
+<p>var systemFormattedDate = iosdatemodule.getSystemFormattedDate('2014-12-29T16:17:26+05:30');</p>
+<p>OR</p>
+<p>// You can use javascript open source Moment.js Library to get the date in the above format//</p>
+<p>var moment = require('alloy/moment');</p>
+<p>var systemFormattedDate = iosdatemodule.getSystemFormattedDate(momemt('YOUR DATE STRING').format());</p>
+<p>Ti.API.info('System formatted date as per the device region :' + systemFormattedDate);</p>
+<h2>Author</h2>
+<p>Murtuza Saifee</p>
+<p>Email: murtuza.saifee@blisstering.com<br />
+</p>
+<h2>License</h2>
+<p>Copyright(c) 2014 by Blisstering Solutions Pvt. Ltd. All Rights Reserved. Please see the LICENSE file included in the distribution for further details.</p>

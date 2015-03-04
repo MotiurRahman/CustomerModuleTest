@@ -1,0 +1,4 @@
+// this is a generated file - DO NOT EDIT
+
+COM_INZORI_ADTAPSY_OTHER_LDFLAGS=$(inherited)  -framework MessageUI -framework Social -framework Accounts -F /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/ -framework RevMobAds -F /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/ -framework AdColony -F /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/ -framework Chartboost -F /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/VungleSDK.embeddedframework/ -framework VungleSDK /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/applovin-ios-sdk/libAppLovinSdk.a /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/GoogleMobileAdsSdkiOS/libGoogleAdMobAds.a /Users/Fabi/Downloads/AdTapsy-iOS-SDK-0.3.8/AdTapsy/AdNetworks/InMobi-iOS-SDK/Libs/libInMobi-4.5.1.a
+OTHER_LDFLAGS=$(inherited) $(COM_INZORI_ADTAPSY_OTHER_LDFLAGS) 

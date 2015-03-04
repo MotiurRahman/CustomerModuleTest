@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: Date Formatter
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+# these should not be edited
+name: Date Formatter
+moduleid: com.dateFormatter
+guid: 5542bda0-7163-4813-9a02-3751652fdbbc
+platform: iphone
+minsdk: 3.4.1.GA
